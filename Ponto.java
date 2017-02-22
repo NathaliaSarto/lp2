@@ -17,6 +17,8 @@ public class Ponto{
           }
 
 public static void main(String [] args){
+  
+
   Ponto p1 = new Ponto();
   p1.setX(10);
   p1.setY(20);
@@ -25,7 +27,11 @@ public static void main(String [] args){
   p2.setX(15);
   p2.setY(30);
 
+  double subx = p1.getX()- p2.getX();  
+  double suby = p2.getY() - p1.getY();
+  double distancia = Math.sqrt ( subx * subx + suby * suby);  
 
+  System.out.println ("DISTANCIA ENTRE PONTOS:" + " " + distancia);
   System.out.println (p1.getX() + " " + p1.getY() );
   System.out.println (p2.getX() + " " + p2.getY() );
 
