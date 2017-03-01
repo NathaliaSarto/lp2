@@ -41,10 +41,19 @@ public static void main(String [] args){
   double subx = p1.getX()- p2.getX();
   double suby = p2.getY() - p1.getY();
   double distancia = Math.sqrt ( subx * subx + suby * suby);
+  
+  
+  double c1 = p1.getY() - p2.getY();
+  double c2 = p1.getX() - p2.getX();
+  double c3 = p2.getY();
+  double area = ((c1*c2)/2) + c3 * c2;
 
   System.out.println (" ");
-  System.out.println ("ATIVIDADE");
+  System.out.println ("ATIVIDADE 1");
   System.out.println ("DISTANCIA ENTRE PONTOS:" + " " + distancia);
+  System.out.println (" ");
+  System.out.println ("ATIVIDADE 2");
+  System.out.println ("ÁREA SOB A RETA:" + " " + area);
   System.out.println (" ");
   System.out.println (p1.getX() + " " + p1.getY() );
   System.out.println (p2.getX() + " " + p2.getY() );
