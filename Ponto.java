@@ -43,10 +43,7 @@ public static void main(String [] args){
   double distancia = Math.sqrt ( subx * subx + suby * suby);
   
   
-  double c1 = p1.getY() - p2.getY();
-  double c2 = p1.getX() - p2.getX();
-  double c3 = p2.getY();
-  double area = ((c1*c2)/2) + c3 * c2;
+  double area = (p1.getY() + p2.getY())*Math.abs(p1.getX() - p2.getX())/2;
 
   System.out.println (" ");
   System.out.println ("ATIVIDADE 1");
