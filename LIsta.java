@@ -32,12 +32,26 @@ public class Lista{
   public void inserir (int x){
          No novo = new  No();
          novo.setX(x);
-         this.pe = novo;
-         cabeca = pe;
-
+            if cabeca == null{
+             this.fim = novo;
+             cabeca = fim;
+            }else{
+             novo.setAnt(fim);
+             fim.setProx(novo);
+             fim=novo;
+            }
+            novo.st
 
   }
   public void remover (){
+         this.fim = fim.getAnt();
+         this.fim.setProx(null);
+           if (fim == null){
+            cabeca = null;
+           }else{
+            this.fim.setProx(null);
+           }
+   
 
   }
 
