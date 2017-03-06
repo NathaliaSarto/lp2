@@ -4,8 +4,6 @@ public class  Principal{
             dup.inserir(11);
             dup.inserir(22);
             dup.inserir(33);
-            dup.exibir();
-            System.out.println(" ");
             dup.remover();
             System.out.println(" ");
     }
