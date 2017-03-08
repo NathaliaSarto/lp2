@@ -2,7 +2,7 @@ public class Principal{
 	public static void main(String [] args){
     
 	double triangulo = new Triangulo(); 
-  triangulo.setBase(10);
+        triangulo.setBase(10);
 	triangulo.setAlt (5);
 	triangulo.setLd1 (10);
 	triangulo.setLd2 (10);
