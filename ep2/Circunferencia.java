@@ -10,11 +10,11 @@ public class Circunferencia extends FiguraGeometrica{
    
    
    public double calcArea(){
-	   3,14 * (Math.pow(raio,2);
+	   3,14 * (Math.pow(get.Raio(),2);
    }
    
    public doule calcPeri(){
-	   2 * 3,14 * raio;
+	   2 * 3,14 * get.Raio();
    }
 
 }
