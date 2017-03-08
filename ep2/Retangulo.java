@@ -18,11 +18,11 @@ public class Retangulo extends FiguraGeometrica{
    
    
    public double calcArea(){
-	   get.Lado1() * get.Altura1();
+	  return get.Lado1() * get.Altura1();
    }
    
    public doule calcPeri(){
-	   (get.Lado1() * 2) + (get.Altura1() * 2);
+	  return (get.Lado1() * 2) + (get.Altura1() * 2);
    }
 
 }	
