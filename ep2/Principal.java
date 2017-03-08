@@ -1,28 +1,34 @@
 public class Principal{
 	public static void main(String [] args){
     
-	double triangulo = new Triangulo(); 
-        triangulo.setBase(10);
-	triangulo.setAlt (5);
-	triangulo.setLd1 (10);
-	triangulo.setLd2 (10);
+	Triangulo f1= new Triangulo(); 
+        f1.setBase(10);
+	f1.setAlt (5);
+	f1.setLd1 (10);
+	f1.setLd2 (10);
 
-	double trapezio = new Trapezio();
-	trapezio.setBama(8);
-	trapezio.setBame(6);
-	trapezio.setH(3);
-	trapezio.setLad1(4);
-	trapezio.setLad2(4);
+	Trapezio f2 = new Trapezio();
+	f2.setBama(8);
+	f2.setBame(6);
+	f2.setH(3);
+	f2.setLad1(4);
+	f2.setLad2(4);
 	
-	double retangulo = new Retangulo();
-	retangulo.setLado1(7);
-	retangulo.setAltura1(5);
+	Retangulo f3 = new Retangulo();
+	f3.setLado1(7);
+	f3.setAltura1(5);
 	
-	double quadrado = new Quadrado();
-	quadrado.setLado(3);
+	Quadrado f4 = new Quadrado();
+	f4.setLado(3);
 	
-	double circunferencia = new Circunferencia();
-	raio.setRaio(4);
+	Circunferencia f5 = new Circunferencia();
+	f5.setRaio(4);
+		
+	System.out.println ("ÁREA DO TRIÂNGULO: " + f1.calcArea()  + "\n PERÍMETRO DO TRIÂNGULO: " + f1.calcPeri());
+	System.out.println ("\n\n ÁREA DO TRAPEZIO: " + f2.calcArea()  + "\n PERÍMETRO DO TRAPEZIO: " + f2.calcPeri());
+	System.out.println ("\n\n ÁREA DO RETÂNGULO: " + f3.calcArea()  + "\n PERÍMETRO DO RETÂNGULO: " + f3.calcPeri());
+	System.out.println ("\n\n ÁREA DO QUADRADO: " + f4.calcArea()  + "\n PERÍMETRO DO QUADRADO: " + f4.calcPeri());
+	System.out.println ("\n\n ÁREA DA CIRCUNFERÊNCIA: " + f5.calcArea()  + "\n PERÍMETRO DA CIRCUNFERÊNCIA: " + f5.calcPeri());
 
 	}
 	
