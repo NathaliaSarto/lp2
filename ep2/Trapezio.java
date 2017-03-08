@@ -37,10 +37,10 @@ public class Trapezio extends FiguraGeometrica{
 	
 	
 	public double calcArea(){
-	 ((get.Bama() + get.Bame()) * get.H()) / 2;
+	 return ((get.Bama() + get.Bame()) * get.H()) / 2;
 	}
 	
 	public double calcPeri(){
-	  get.Bama() + get.Bame() + get.Lad1() + get.Lad2();
+	 return get.Bama() + get.Bame() + get.Lad1() + get.Lad2();
     }	
 }
