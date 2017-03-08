@@ -10,11 +10,11 @@ public class Quadrado extends FiguraGeometrica{
    
    
    public double calcArea(){
-	   lado * lado;
+	   get.Lado() * get.Lado();
    }
    
    public doule calcPeri(){
-	   lado * 4;
+	   get.Lado() * 4;
    }
 
 }
