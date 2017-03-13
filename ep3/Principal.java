@@ -33,8 +33,9 @@ ni.add(a4);
 ni.add(a5);
 
 Collections.sort(ni);
-System.out.println(ni);
-
+for (int i=0; i<5; i++){
+   System.out.println(ni.get(i).getNome()+" - " + ni.get(i).getIdade());
+}
 
 }
 }
