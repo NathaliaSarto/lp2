@@ -1,3 +1,6 @@
+import java.util.Collections;
+import java.util.ArrayList;
+
 public class Principal {
 
 public static void main(String [] args){
@@ -29,8 +32,8 @@ ni.add(a3);
 ni.add(a4);
 ni.add(a5);
 
-Collections.sort();
-System.out.println();
+Collections.sort(ni);
+System.out.println(ni);
 
 
 }
