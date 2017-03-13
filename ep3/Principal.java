@@ -25,6 +25,10 @@ Aluno a5 = new Aluno();
 a5.setNome("Birma");
 a5.setIdade(19);
 
+Disciplina d1 = new Disciplina();
+d1.setNome "CONTINUA AQUI"
+
+
 ArrayList<Aluno> ni = new ArrayList<Aluno>();
 ni.add(a1);
 ni.add(a2);
