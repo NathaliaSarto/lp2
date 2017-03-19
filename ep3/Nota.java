@@ -25,12 +25,12 @@ public class Nota{
  }
 
   public int compareTo(Nota maior){
-		if( this.nota > maior.getNota())
-			return -1;
-        	else if( this.nota < maior.getNota())
-			return 1;
-		else
-			return 0;
+    if( this.nota > maior.getNota())
+	return -1;
+    else if( this.nota < maior.getNota())
+	return 1;
+    else
+    return 0;
 	}
 
 }
