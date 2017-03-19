@@ -24,5 +24,13 @@ public class Nota{
         return this.disciplina;
  }
 
+  public int compareTo(Nota maior){
+		if( this.nota > maior.getNota())
+			return -1;
+        	else if( this.nota < maior.getNota())
+			return 1;
+		else
+			return 0;
+	}
 
 }
