@@ -1,8 +1,8 @@
 public  class FiguraGeometrica {
-   calcularPerimetro(){
+   calcPeri(){
 
    }
-   calcularArea(){
+   calcArea(){
 
 
    }
