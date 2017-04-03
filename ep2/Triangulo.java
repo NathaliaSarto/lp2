@@ -33,7 +33,7 @@ public class Triangulo extends FiguraGeomerica{
     return (get.Base()*getAlt())/2;
   }
 
-  public double calcPerim(){
+  public double calcPeri(){
     return get.Base() + get.Ld1() + get.Ld2;
 
   }
