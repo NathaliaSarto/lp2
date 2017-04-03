@@ -13,7 +13,7 @@ public class Circunferencia extends FiguraGeometrica{
 	   return 3.14 * (Math.pow(get.Raio(),2);
    }
    
-   public doule calcPeri(){
+   public double calcPeri(){
 	   return 2 * 3.14 * get.Raio();
    }
 
