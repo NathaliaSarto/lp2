@@ -13,7 +13,7 @@ public class Quadrado extends FiguraGeometrica{
 	   get.Lado() * get.Lado();
    }
    
-   public doule calcPeri(){
+   public double calcPeri(){
 	   get.Lado() * 4;
    }
 
