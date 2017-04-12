@@ -4,9 +4,9 @@ protected int totalLivrosClarisse;
 protected int TotalLivrosRick;
 protected int TotalLivrosAlencar;
 private Livros(){}
-public static Livros getInstance(){
+public static Livros getInstancia(){
        if (instancia == null){
           instancia = new Livros()
-          }
         return instancia;
        }
+}
