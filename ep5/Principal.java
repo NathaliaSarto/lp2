@@ -4,7 +4,6 @@ class Principal{
     Livros l2 = new Livros.getInstancia();
     l1.totalLivrosClarisee++;
     Livros l3 = new Livros.getInstancia();
-    l3.totalLivrosClarisse+10;
     Livros l4 = new Livros.getInstancia();
     System.out.println(l1,l2,l3,l4);
   }
